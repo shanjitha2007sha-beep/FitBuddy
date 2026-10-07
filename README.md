@@ -1,7 +1,6 @@
+1. Clone the repo
+```bash
+git clone https://github.com/shanjitha2007sha-beep/FitBuddy.git
+cd FitBuddy
 
-**Ippo enna pannanum:**
-1. GitHub la `README.md` file-a click pannu
-2. Edit (pencil icon) click pannu
-3. Itha full-a paste panni `Commit changes` kuduthudu
 
-Need full `app.py` code-um venuma? Naan ready panni tharen.
