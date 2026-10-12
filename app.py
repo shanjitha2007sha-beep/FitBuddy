@@ -53,10 +53,8 @@ Use simple Tamil-English mix.
 Keep advice safe and general.
 """
 
-        try:
+try:
             res = model.generate_content(prompt)
             st.write(res.text)
         except Exception as e:
             st.error(f"Error generating plan: {e}")
-
-st.sidebar.markdown("WASSCOM FSP - Generative AI Project")
