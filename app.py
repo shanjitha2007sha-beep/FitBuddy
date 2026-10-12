@@ -10,7 +10,7 @@ st.caption("Indian Diet + Home Workout - No Gym Needed!")
 
 col1, col2, col3 = st.columns(3)
 with col1:
-age = st.number_input("Age", 15, 60, 20)
+     age = st.number_input("Age", 15, 60, 20)
 with col2:
 weight = st.number_input("Weight kg", 30, 150, 65)
 with col3:
