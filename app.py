@@ -22,7 +22,7 @@ workout_place = st.radio("Workout Enga?", ["Home", "Gym"])
 medical = st.text_input("Any health issue? (Ex: None, Asthma)")
 
 if st.button("🔥 Generate My Plan"):
-with st.spinner("Plan create panrom..."):
+     with st.spinner("Plan create panrom..."):
 prompt = f"""
 Create fitness plan for: {age} years, {weight}kg, {height}cm, Goal {goal}, Diet {diet_type}, Workout at {workout_place}, Health: {medical}.
 Give:
