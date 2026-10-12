@@ -12,9 +12,9 @@ col1, col2, col3 = st.columns(3)
 with col1:
      age = st.number_input("Age", 15, 60, 20)
 with col2:
-weight = st.number_input("Weight kg", 30, 150, 65)
+     weight = st.number_input("Weight kg", 30, 150, 65)
 with col3:
-height = st.number_input("Height cm", 120, 200, 170)
+     height = st.number_input("Height cm", 120, 200, 170)
 
 goal = st.selectbox("Goal Enna?", ["Weight Loss", "Muscle Gain", "Weight Gain", "Stay Fit & Healthy"])
 diet_type = st.selectbox("Diet Preference", ["Veg", "Non-Veg", "Eggetarian"])
